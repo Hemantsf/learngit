@@ -9,3 +9,10 @@ for commit message
 
 //git log  --author "hemantsf"
 for author history
+
+//for adding file in git
+1. make files
+2. add in through command "git add -A"
+3. Check status "git status"
+4. commit it "git commit -m "added.....txt."
+5.git push origin master
