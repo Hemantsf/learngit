@@ -1,0 +1,11 @@
+// git log
+ show commit history
+
+//git log -2
+for last 2 commits
+
+//git log --oneline
+for commit message
+
+//git log  --author "hemantsf"
+for author history
