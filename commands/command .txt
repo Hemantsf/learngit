@@ -10,9 +10,37 @@ for commit message
 //git log  --author "hemantsf"
 for author history
 
+//git -G "hello"
+for searching words in file
+//git -i -G"hello"
+for case insensitive case write -i in line
+//git -i -p -G "hello"
+this command come up with ur search word (hello) paragraph
+
+
+//git stash save "Added h2 line in index"
+
+it store your commands if you want to left something in middile n u dont want to commit it an after some time  u can retrieve it this command will remove your codes after last commit u write
+
+//git stash list
+for stash list
+
+//git stash apply stash@90{}
+stash@90{} some thing like this first letter  written when u get stash list then copy it and paste it ahead apply like i did this command will get your code back
+
+//git statsh drop stash()90
+for deelete
+
+//git stash clean 
+for deleting all stash
+
 //for adding file in git
-1. make files
+1. make files locally
 2. add in through command "git add -A"
 3. Check status "git status"
 4. commit it "git commit -m "added.....txt."
 5.git push origin master
+
+//git status 
+for checking history of your added and modified files
+
